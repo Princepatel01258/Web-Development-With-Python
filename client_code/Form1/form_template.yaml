@@ -27,14 +27,20 @@ components:
     properties: {text: Enter Your Weight}
     type: TextBox
     layout_properties: {grid_position: 'KARMJD,AWQUOZ'}
-  - name: text_box_3
-    properties: {text: Do You Need Personal Training}
-    type: TextBox
-    layout_properties: {grid_position: 'AEYBNF,VXGEVJ'}
+  - name: rich_text_1
+    properties: {content: 'Do You Need Personal Training?
+
+        ', font: '', font_size: 20}
+    type: RichText
+    layout_properties: {grid_position: 'LBVYYJ,MEDVMR'}
   - name: check_box_1
-    properties: {text: 'Yes'}
+    properties: {text: 'Yes', font_size: 20}
     type: CheckBox
     layout_properties: {grid_position: 'PTIRTV,NUSOLB'}
+  - name: outlined_button_1
+    properties: {text: Submit, role: outlined-button, font_size: 15}
+    type: Button
+    layout_properties: {grid_position: 'RTLSID,LWNOOL'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
